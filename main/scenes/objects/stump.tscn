@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://b3ww7ihyfkb88"]
+
+[ext_resource type="Texture2D" uid="uid://ho2w1wx4t4sw" path="res://assets/materials/objects/basic_grass_biom_things.png" id="1_sjw4e"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t12f5"]
+atlas = ExtResource("1_sjw4e")
+region = Rect2(48, 32, 16, 16)
+
+[node name="stump" type="Sprite2D"]
+texture = SubResource("AtlasTexture_t12f5")

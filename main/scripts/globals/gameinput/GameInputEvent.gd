@@ -1,0 +1,28 @@
+class_name GameInputEvent
+
+static var direction : Vector2
+static var last_direction : Vector2
+
+static func movement_input() -> Vector2:
+	if Input.is_action_pressed("walk_left"):
+		direction = Vector2.LEFT
+		last_direction = Vector2.LEFT
+	elif Input.is_action_pressed("walk_right"):
+		direction = Vector2.RIGHT
+		last_direction = Vector2.RIGHT
+	elif Input.is_action_pressed("walk_back"):
+		direction = Vector2.UP
+		last_direction = Vector2.UP
+	elif Input.is_action_pressed("walk_front"):
+		direction = Vector2.DOWN
+		last_direction = Vector2.DOWN
+	else:
+		direction = Vector2.ZERO
+		return last_direction
+	return direction
+
+static func is_movment_input() -> bool:
+	if direction == Vector2.ZERO:
+		return false
+	else:
+		return true
