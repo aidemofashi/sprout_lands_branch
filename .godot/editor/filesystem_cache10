@@ -1,9 +1,9 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1758165206
+::res://::1760626024
 export_presets.cfg::TextFile/TextFile::-1::1754533659::0::1::::<><><>0<>0<><>::
 icon.svg::CompressedTexture2D/CompressedTexture2D::5539416831772690227::1751388568::1751388053::1::::<><><>0<>0<>3cb62f3bd52b2bade073fd3663888dfb<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-mignon.png::CompressedTexture2D/CompressedTexture2D::3779574132921528537::1751316884::1755066251::1::::<><><>0<>0<>1237bb12af061f2cbe6adacbeb4447fb<>res://.godot/imported/mignon.png-adfad8be024e5c0c668770d35f39ade9.ctex::
-::res://assets/::1754807028
+readme.md::TextFile::-1::1758283273::0::1::::<><><>0<>0<><>::
+::res://assets/::1758278593
 ::res://assets/effect/::1754807681
 sfx_step_grass_r.ogg::AudioStreamOggVorbis/AudioStreamOggVorbis::8706557278232323191::1754807674::1754807681::1::::<><><>0<>0<>879a687f27e1377ede6b072f3e629dfe<>res://.godot/imported/sfx_step_grass_r.ogg-003c920e0cc7bff02dc30460d951b9c9.oggvorbisstr::
 ::res://assets/materials/::1751389085
@@ -55,8 +55,8 @@ water.tres::TileSet/TileSet::7079194026086256913::1755582989::0::1::::<><><>0<>0
 ::res://main/scenes/characters/players/::1755419902
 player_0.tscn::PackedScene/PackedScene::3539606136299915043::1755419902::0::1::::<><><>0<>0<><>::uid://df668iutbbkb0::::res://main/scripts/Player/Player0/player_0.gd<>uid://dmueklhvk52yv::::res://assets/materials/characters/basic_charakter_actions.png<>uid://clomhlbm3dnbf::::res://assets/materials/characters/basic_charakter_spritesheet.png<>uid://dhr8y88suf2nf::::res://main/scripts/Player/Player0/state_machine/node_state_machine.gd<>uid://cfuvob182g45v::::res://main/scripts/Player/Player0/state_machine/idle_state.gd<>uid://driooekuxcp8s::::res://main/scripts/Player/Player0/movements/Working/tilling.gd<>uid://dwbryxvu8taap::::res://assets/effect/sfx_step_grass_r.ogg<>uid://e4qarwf8vddo::::res://main/scripts/Player/Player0/movements/walk_state.gd<>uid://c00binh0oo6t0::::res://main/scripts/Player/Player0/movements/Working/chopping.gd<>uid://b6i6588fmudjm::::res://main/scripts/Player/Player0/movements/Working/watering.gd<>uid://boq7ab6xw2ehp::::res://main/scenes/components/hit_component.tscn
 ::res://main/scenes/components/::1755583372
-collectable_component.gd::GDScript::1653513831588337304::1755420641::0::1::::CollectableComponent<>Area2D<><>0<>0<><>::
-collectable_component.tscn::PackedScene::9108686895231773555::1755583372::0::1::::<><><>0<>0<><>::uid://xs8epxwrocia::::res://main/scenes/components/collectable_component.gd
+collectable_component.gd::GDScript/GDScript::1653513831588337304::1755420641::0::1::::CollectableComponent<>Area2D<><>0<>0<><>::
+collectable_component.tscn::PackedScene/PackedScene::9108686895231773555::1755583372::0::1::::<><><>0<>0<><>::uid://xs8epxwrocia::::res://main/scenes/components/collectable_component.gd
 damage_component.gd::GDScript/GDScript::3289932435260081953::1755419288::0::1::::DamageComponent<>Node2D<><>0<>0<><>::
 damage_component.tscn::PackedScene/PackedScene::7861853222874480455::1755419902::0::1::::<><><>0<>0<><>::uid://bm4wya08vs0hp::::res://main/scenes/components/damage_component.gd
 hit_component.gd::GDScript/GDScript::1039000357710046880::1755413216::0::1::::HitComponent<>Area2D<><>0<>0<><>::

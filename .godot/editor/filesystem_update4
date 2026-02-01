@@ -1,0 +1,7 @@
+res://main/scenes/worlds/testing_scene_tree.tscn
+res://main/backgrounds/water.tres
+res://main/backgrounds/ground.tres
+res://main/backgrounds/tiled.tres
+res://main/backgrounds/nature.tres
+res://main/scenes/objects/houses/house_tile_set.tres
+res://main/backgrounds/house.tres
